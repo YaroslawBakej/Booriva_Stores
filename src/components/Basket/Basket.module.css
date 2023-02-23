@@ -1,0 +1,114 @@
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 220px;
+}
+
+.head div {
+    background-image: url(./assets/в\ корзине.svg);
+    width: 344px;
+    height: 103px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.item-in-card {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 20px;
+}
+
+.item_1,
+.item_2,
+.item_3,
+.item_4,
+.item_5,
+.item_6 {
+    display: flex;
+    justify-content: left;
+    width: auto;
+    position: relative;
+}
+
+.delete {
+    position: absolute;
+    background-image: url(./assets/delete.png);
+    height: 23px;
+    width: 23px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 20px;
+    cursor: pointer;
+}
+
+.item_1 .img,
+.item_2 .img,
+.item_3 .img,
+.item_4 .img,
+.item_5 .img,
+.item_6 .img {
+    background-image: url(./assets/item.svg);
+    height: 177px;
+    width: 135px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.text p{
+font:600 16px 'Montserrat';
+height: 30%;
+width: auto;
+display: flex;
+align-items: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+.ordering {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 165px;
+    width: 1140px;
+}
+
+.ordering p {
+    height: 56px;
+    width: auto;
+}
+
+.checkout {
+    width: 1140px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.checkout-img{
+    background-image: url(./assets/checkout.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.checkout-img p{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font:400 20px 'Sunday Best [rus by aLiNcE]';
+}

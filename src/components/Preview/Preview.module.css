@@ -1,0 +1,84 @@
+.women {
+    background-image: url(./assets/новинки.svg);
+    width: 1140px;
+    height: 502px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    height: 80px;
+}
+
+.price p {
+    font: 700 24px 'Montserrat';
+    text-align: right;
+    color: #FDA3C4;
+    width: 270px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 139px;
+}
+
+.info p {
+    width: 200px;
+    height: 36px;
+    font: 400 16px 'Montserrat'
+}
+
+.banner {
+    background-image: url(./assets/baner.png);
+    width: 1140px;
+    height: 446px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.booriva {
+    display: flex;
+    background-image: url(./assets/booriva.png);
+    width: 1006px;
+    height: 830px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.advantages{
+display: flex;
+justify-content: space-between;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.advantages .image-1{
+background-image:url(./assets/baner.png);
+height: 98px;
+width: 81px;
+}
+.advantages .image-2{
+background-image:url(./assets/baner.png);
+height: 98px;
+width: 81px;
+}
+.advantages .image-3{
+background-image:url(./assets/baner.png);
+height: 98px;
+width: 81px;
+}
+
+.paragraph{
+    width: 170px;
+}
