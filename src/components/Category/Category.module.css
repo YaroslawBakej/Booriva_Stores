@@ -56,7 +56,7 @@ hr {
 }
 
 .like {
-    background-image: url(./assets/сердце\ пустое.svg);
+    /* background-image: url(../../storage/assets/icon.png); */
     background-size: contain;
     background-repeat: no-repeat;
     width: 28px;

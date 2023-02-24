@@ -1,16 +1,19 @@
+import products from "./storage/products"
+
 let item = [
-    
+
 ]
 
-function addItem({ id, name, price, path }){
-item.push({ id, name, price, path })
-console.log(item);
+function addItem({ id, name, price, path }) {
+    products[id].flag = true
+    products[id].color=`vector.png`
+    item.push({ id, name, price, path })
 }
 
-function updateItem(id){
-    console.log(id);
-    const result = item.filter((el)=>el.id!==id)
-    item=result
-    console.log(item);
+function updateItem(id) {
+    products[id].flag = false
+    products[id].color=`icon.png`
+    const result = item.filter((el) => el.id !== id)
+    item = result
 }
-export {item, updateItem, addItem}
+export { item, updateItem, addItem }
