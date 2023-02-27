@@ -6,13 +6,13 @@ let item = [
 
 function addItem({ id, name, price, path }) {
     products[id].flag = true
-    products[id].color=`vector.png`
     item.push({ id, name, price, path })
+    products[id].color=`icon.png`
 }
 
 function updateItem(id) {
+    products[id].color=`vector.png`
     products[id].flag = false
-    products[id].color=`icon.png`
     const result = item.filter((el) => el.id !== id)
     item = result
 }

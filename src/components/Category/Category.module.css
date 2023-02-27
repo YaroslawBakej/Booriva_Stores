@@ -56,7 +56,18 @@ hr {
 }
 
 .like {
-    /* background-image: url(../../storage/assets/icon.png); */
+    background-image: url(./assets/vector.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 26px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 10%;
+}
+.like-red {
+    background-image: url(./assets/icon.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 28px;

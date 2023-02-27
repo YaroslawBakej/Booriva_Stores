@@ -28,12 +28,12 @@ function Basket() {
             </div>
             <div className={style['ordering']}>
                 <div className={style['total-count']}>
-                    <p className={style['qty']}>Всего</p>
+                    <p className={style['qty']}>Количество товаров</p>
                     <p className={style['price']}>Сумма заказа</p>
                 </div>
                 <div className={style['total-price']}>
-                    <p className={style['count']}>Кол-во товаров</p>
-                    <p className={style['total-price']}>$</p>
+                    <p className={style['count']}>{item.length}</p>
+                    <p className={style['total-price']}>{}</p>
                 </div>
             </div>
             <div className={style['checkout']}>
